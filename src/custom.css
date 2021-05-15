@@ -1,0 +1,4 @@
+.hero_image{
+    background: url("../public/heroimage.jpg");
+    height: 100vh; /* vh-> view port height */
+}
