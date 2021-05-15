@@ -1,4 +1,21 @@
+body{
+    font-family: 'Girassol', cursive;
+}
 .hero_image{
-    background: url("../public/heroimage.jpg");
+    background: url("../public/heroimage.jpg") no-repeat;
+    background-size: cover; /* covering all sides*/
     height: 100vh; /* vh-> view port height */
+    position: relative;
+}
+.hero_wrapper{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.hero_wrapper h1{
+    font-size: 4.4rem;
+    text-align: center;
 }
