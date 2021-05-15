@@ -19,6 +19,9 @@ body{
     font-size: 4.4rem;
     text-align: center;
 }
+.form_code{
+    text-align: center;
+}
 .postcode{
     display: block;
     width: 80%;
@@ -26,5 +29,13 @@ body{
     margin-right: auto;
     padding: .6rem;
     border-radius: 2rem;
+    outline: none;
+}
+.btn{
+    width: 40%;
+    display: inline-block;
+    margin-top: 8px;
+    border-radius: 2rem;
+    background: cornflowerblue;
     outline: none;
 }
